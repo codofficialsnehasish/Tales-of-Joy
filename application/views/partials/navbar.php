@@ -41,11 +41,11 @@ $categoriesMenu=$this->select->get_parent_categories();
                         <!-- <div class="header-support"><a href="">Support +</a></div> -->
                         <div class="header-social">
                             <ul class="d-flex gap-10">
-                                <li><a href="" class="rounded-circle"><i class="fa-brands fa-google"></i></a></li>
-                                <li><a href="" class="rounded-circle"><i class="fa-solid fa-location-dot"></i></a></li>
-                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-                                <li><a href=""><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.google.com/search?sca_esv=23e333b9b80ac6d8&authuser=1&sxsrf=ACQVn095DznpSNRMsZV82cssR6J2t0AxFw:1707128498245&q=Tales+of+Joy+%7C+pet+%26+bird+shop+in+Kolkata+%7C+Picnic+Garden&ludocid=8138850825590321721&lsig=AB86z5V9DPTRxnwO1ifSyySYRy9r&kgs=f2f5780722eac229&shndl=-1&source=sh/x/loc/act/m4/2" class="rounded-circle"><i class="fa-brands fa-google"></i></a></li>
+                                <li><a href="https://maps.app.goo.gl/NHWihVfTYVsytpfk7" class="rounded-circle"><i class="fa-solid fa-location-dot"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-user"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>

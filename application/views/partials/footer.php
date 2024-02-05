@@ -2,24 +2,22 @@
             <div class="container">
                 <div class="footer-content-container p-60">
                     <div class="container">
-
                         <div class="social-network pb-60 pt-0">
                             <div class="container d-block d-lg-flex justify-content-between align-items-center">
                                 <h2 class="text-center text-lg-start">Lets Connect<span>Get in touch or just say Hi</span></h2>
                                 <ul class="d-flex justify-content-center flex-wrap gap-20">
-                                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-google"></i></a></li>
-                                    <li><a href=""><i class="fa-solid fa-location-dot"></i></a></li>
-                                    <li><a href=""><i class="fa-solid fa-location-dot"></i></a></li>
-                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="<?= $this->settings->youtube_url;?>"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="<?= $this->settings->instagram_url;?>"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="https://www.google.com/search?sca_esv=23e333b9b80ac6d8&authuser=1&sxsrf=ACQVn095DznpSNRMsZV82cssR6J2t0AxFw:1707128498245&q=Tales+of+Joy+%7C+pet+%26+bird+shop+in+Kolkata+%7C+Picnic+Garden&ludocid=8138850825590321721&lsig=AB86z5V9DPTRxnwO1ifSyySYRy9r&kgs=f2f5780722eac229&shndl=-1&source=sh/x/loc/act/m4/2"><i class="fa-brands fa-google"></i></a></li>
+                                    <li><a href="https://maps.app.goo.gl/NHWihVfTYVsytpfk7"><i class="fa-solid fa-location-dot"></i></a></li>
+                                    <li><a href="https://maps.app.goo.gl/NHWihVfTYVsytpfk7"><i class="fa-solid fa-location-dot"></i></a></li>
+                                    <li><a href="<?= $this->settings->twitter_url;?>"><i class="fa-brands fa-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </div>  
-
                         <div class="footer-content d-flex gap-50">
                             <div class="footer-logo">
-                                <a href=""><img src="<?= base_url('assets/site/images/footer-logo.png'); ?>" alt=""></a>
+                                <a href="<?= base_url(); ?>"><img src="<?= base_url('assets/site/images/footer-logo.png'); ?>" alt=""></a>
                             </div>
                             <div class="footer-contact">
                                 <h4>Pet Supply Shop</h4>
@@ -48,7 +46,6 @@
                                 </ul>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -58,17 +55,17 @@
                 <div class="copyright d-sm-block d-md-flex justify-content-between">
                     <p>&copy; <?php echo date("Y"); ?> talesofjoy. All rights reserved. </p>
                     <ul class="d-flex justify-content-center gap-20">
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-google"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="<?= $this->settings->facebook_url;?>"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="<?= $this->settings->instagram_url;?>"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.google.com/search?sca_esv=23e333b9b80ac6d8&authuser=1&sxsrf=ACQVn095DznpSNRMsZV82cssR6J2t0AxFw:1707128498245&q=Tales+of+Joy+%7C+pet+%26+bird+shop+in+Kolkata+%7C+Picnic+Garden&ludocid=8138850825590321721&lsig=AB86z5V9DPTRxnwO1ifSyySYRy9r&kgs=f2f5780722eac229&shndl=-1&source=sh/x/loc/act/m4/2"><i class="fa-brands fa-google"></i></a></li>
+                        <li><a href="<?= $this->settings->youtube_url;?>"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="<?= $this->settings->twitter_url;?>"><i class="fa-brands fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
         </section>
         <!-- End Footer -->
-
+        
         <!-- Including Javascript -->
 
         <!-- jQuery Master Plugin -->
